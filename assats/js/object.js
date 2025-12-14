@@ -1,5 +1,5 @@
 const object = {
-    name:"sabbir",
+    name:"sabbir", 
     age: 44,
     details:{
         job: "no",
@@ -10,4 +10,14 @@ const object = {
 
 const numbers =[1, 2, 3, 4, 5, 6];
 const newArray = numbers.map(number => number +1);
-console.log(newArray);
+// console.log(newArray);
+
+const num1 = 10;
+const num2 = "10";
+
+if(num1 == num2){
+    console.log("This Is Wqual Value");
+}
+else{
+    console.log("This Is not Equal");
+}
