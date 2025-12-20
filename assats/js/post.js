@@ -12,7 +12,7 @@ const postAllData = (users) => {
         const div = document.createElement("div")
         div.classList.add("card")
         div.innerHTML=`
-        <h1>${user.userId}</h1>
+        <h1> ${user.userId}</h1>
         <h2>${user.id}</h2>
         <h1>${user.title}</h1>
         <p>${user.body}</p>`
